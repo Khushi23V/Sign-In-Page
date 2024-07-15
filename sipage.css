@@ -1,0 +1,93 @@
+body{
+    background-image:url(https://wallpapers.com/images/hd/4k-laptop-on-black-desk-qrlk8vcxz01kbm0h.jpg);
+    margin:0;
+    background-size:cover;
+}
+
+.main-page{
+    position:absolute;
+    width:350px;
+    height:450px;
+    background-color:rgba(255, 255, 255,0.75);
+    left:100px;
+    top:65px;
+    border-radius:10px;
+}
+.profile{
+    position:absolute;
+    width:100px;
+    height:100px;
+    background-color:rgb(70, 70, 70);
+    border-radius:50%;
+    top:50px;
+    left:120px;
+    overflow:hidden;
+}
+.profile-face{
+    background-color:rgba(255, 255, 255,0.75);
+    position:absolute;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    top:20px;
+    left:28.5px;
+}
+.profile-body{
+    position:absolute;
+    width:70px;
+    height:50px;
+    background-color:rgba(255, 255, 255,0.75);
+    top:60px;
+    left: 15px;
+    border-radius:28px 28px 0 0;
+}
+
+h1{
+    font-family:sans-serif;
+    color:white;
+    padding-left:600px;
+    padding-top:65px;
+    font-size:65px;
+    letter-spacing:2px;
+}
+label{
+    display:block;
+    margin:2rem 0;
+    font-size:16px;
+    font-family:sans-serif;
+    color:rgb(70, 70, 70);
+
+}
+fieldset{
+    border:none;
+    padding-top:150px;
+    padding-left:85px;
+    max-width:200px;
+    min-width:30px;
+    width:20vw;
+}
+input[type="email"],input[type="password"]{
+    background-color:transparent;
+    border:1px solid rgba(48, 48, 48,0.2);
+    margin-top:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    border-radius:8px;
+}
+input[type="submit"] {
+    display: block;
+    width: 75px;
+    margin:auto;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(70, 70, 70);
+    border-radius:5px;
+    color:rgba(255, 255, 255,0.75);
+  }
+  h2{
+    color:rgb(70, 70, 70);
+    font-family:sans-serif;
+    padding-left:41px;
+    font-size:25px;
+  }
